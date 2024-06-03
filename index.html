@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Lush Garden Florist Landing</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="banniere"> <!--Div qui englobe tout ce qui est sur l'image de fond-->
+            <div class="header-top"> <!--Div pour faire une flex avec le logo à gauche et les liens à droite-->
+                <img src="images/lush-logo.png" alt="Logo de Lush" class="logo">
+                <nav class="liens-navi"> <!--Les liens de navigation à droite-->
+                    <a href="index.html">Home</a>
+                    <a href="a-propos.html">About Us</a>
+                    <a href="planters.html">Planters</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <h1>Nature's Beauty Delivered to You</h1>
+            <p>
+                Nature's beauty is just a click away with our online flower and plant shop. We offer a 
+            </p> 
+            <p>
+                wide variety of flowers that will bring a touch of nature to your home!
+            </p>
+        </div>
+    </header>
+    <main>
+        <section class="accueil-titre-texte">
+        <!--Flex box pour aligner le titre et le texte, deux éléments h2 et p-->
+            <h2>We Help Choose The Most <br> Suitable Plants For You</h2>
+            <p>
+                Our selection includes a wide variety of flowers, from classic roses to exotic <br> 
+                orchids, as well as a variety of lush indoor and outdoor plants and also offer <br> unique floral arrangements that are perfect for any occasion, whether you're <br> looking to brighten up your home or send a thoughtful gift.
+            </p>
+        </section>
+        <section class="grid-plants"> <!--Section pour organiser la flex box entre les trois cadres des plantes-->
+            <div class="box-une"> <!--div pour le rectangle de gauche-->
+                <img src="images/about-img1.png" alt="Logo Indoor Plants">
+                <h3>Indoor Plants</h3>
+                <p>
+                    Bring the beauty of nature to your <br> outdoor spaces with our wide <br> selection of outdoor plants
+                </p>
+            </div>
+            <div class="box-deux"> <!--div pour le rectangle du milieu-->
+                <img src="images/about-img2.png" alt="Logo Outdoor Plants" class="outdoor">
+                <h4>Outdoor Plants</h4>
+                <p>
+                    Bring a touch of greenery to your <br> living spaces with our collection of <br> indoor plants, perfect for purifying <br> the air and adding a natural touch <br> to your home.
+                </p>
+            </div>
+            <div class="box-trois"> <!--div pour le rectangle de droite-->
+                <img src="images/about-img3.png" alt="Logo Plants Pots">
+                <h5>Plants Pots</h5>
+                <p>
+                    Add a touch of style to your indoor <br> or outdoor spaces with our <br> collection of pots plants, available <br> in a variety of sizes and designs to <br> fit any decor
+                </p>
+            </div>
+        </section>
+        <section class="accueil-newsletter">
+        <!--Section de la partie contact, avant le footer, avec l'image de background-->
+            <div class="form">
+                <p> Enter Your Email Address For Our <br> Mailing Promo Or Other Interesting <br> Things</p>
+                <form class="form-champ">
+                    <input type="email" name="email" id="email" placeholder="Enter your email" class="champ">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="reseaux">
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone" >
+                <img src="images/social-instagram.png" alt="Logo Instagram">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/" class="lien-icone" >
+                <img src="images/social-facebook.png" alt="Logo Facebook">
+            </a>
+            <a target="_blank" href="https://www.twitter.com/" class="lien-icone" >
+                <img src="images/social-twitterx.png" alt="Logo Twitter">
+            </a>
+        </section>
+        <section class="navi-footer">
+            <a href="a-propos.html">About Us</a>
+            <a href="plants.html">Plants</a>
+            <a href="delivery.html">Delivery</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </section>
+    </footer>
+    <section class="copyright">
+        <p>
+            Copyright © 2021 Lush. All rights reserved.
+        </p>
+    </section>  
+</body>
+</html>
